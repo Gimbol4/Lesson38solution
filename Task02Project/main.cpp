@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double calc_num(double a);
+int calc_num(double a);
 
 int main() {
 	double a;

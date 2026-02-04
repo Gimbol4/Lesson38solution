@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 string answer(string pet, int budjet) {
 	string answer;
 
