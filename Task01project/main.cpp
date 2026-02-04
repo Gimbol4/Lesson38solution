@@ -9,6 +9,11 @@ int main() {
 	cout << "Input sides od cube: ";
 	cin >> a >> b >> c;
 
+	if (a < 1 || b < 0 || c < 0) {
+		cout << "Error. Try again...";
+		return -1;
+	}
+
 	cout << "Volume of your cube is " << calc_v(a, b, c) <<
 		". Square of your cube is " << calc_s(a, b, c) << ".";
 	return 0;
